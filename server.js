@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const port = process.env.PORT || 3000;
 
 mongoose.connect('mongodb://localhost/dbNode');
 let db = mongoose.connection;
@@ -119,6 +120,6 @@ app.post('/articles/edit/:id', function(req, res){
 });
 
 // start server
-app.listen(3000, function(){
+app.listen(port, function(){
     console.log('server started on port 3000');
 });
