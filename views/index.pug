@@ -1,8 +1,18 @@
 extends layout
 
 block content
-    h1 #{title}
+    .position-relative.overflow-hidden.p-3.p-md-5.m-md-3.text-center.bg-light.img
+        .col-md-5.p-lg-5.mx-auto.my-5
+            h1.display-4.font-weight-normal Trending in Tech 
+            p.lead.font-weight-normal
+            | Microsoft bans use of "offensive language" on Xbox Live, Skype, and other services
+        .product-device.box-shadow.d-none.d-md-block
+        .product-device.product-device-2.box-shadow.d-none.d-md-block
+    .col-sm-2
+        h1 #{title}
     ul.list-group
         each article, i in articles
-            li.list-group-item 
-                a(href="/article/"+article.id)= article.title
+            .col-sm-9.mar
+                li.list-group-item 
+                    .col-sm-9
+                        a(href="/articles/"+article.id)= article.title

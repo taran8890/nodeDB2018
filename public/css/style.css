@@ -1,0 +1,32 @@
+.alert-error{
+    color:#a94442;
+    background-color: #f2dede;
+    border-color: #edccd1;
+
+}
+
+.alert-success-message{
+    color:#3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    
+}
+
+
+.img{
+    background-image: url('../image/tech1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.pos{
+    position: relative;
+    bottom: 10px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.mar{
+    margin: 10px 0;
+}
