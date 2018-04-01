@@ -1,2 +1,1 @@
-# article_assignment
-# Dbnode2018
+# nodeDb2018
