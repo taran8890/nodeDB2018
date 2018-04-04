@@ -1,1 +1,1 @@
-web: server.js
+web: start server.js
