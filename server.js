@@ -109,5 +109,5 @@ app.use('/users', users);
 
 // start server
 app.listen(port, function(){
-    console.log('server started on port 3000');
+    console.log(console.log("App is running on port " + port));
 });
